@@ -1,0 +1,25 @@
+{
+  "name": "aitd-life-scripting",
+  "displayName": "AITD Life Scripting",
+  "description": "Syntax highlighting for life scripts decompiled from Alone in the Dark.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "life",
+      "aliases": ["Life (AITD)", "life"],
+      "extensions": [".life"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "life",
+      "scopeName": "source.life",
+      "path": "./syntaxes/life.tmLanguage.json"
+    }]
+  }
+}
