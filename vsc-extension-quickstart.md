@@ -27,3 +27,49 @@
 
 * To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 * To share your extension with the world, read on https://code.visualstudio.com/api/working-with-extensions/publishing-extension about publishing an extension.
+
+Variable name scopes
+Foreground: variable.other.readwrite.js
+variable
+meta.definition.variable.name
+support.variable
+entity.name.variable
+constant.other.placeholder
+Textmate Scopes
+variable.other.readwrite.js
+meta.definition.variable.js
+meta.var-single-variable.expr.js
+meta.var.expr.js
+source.js
+
+`semantic token type`	variable
+`modifiers`	declaration
+`foreground`	variable.other.readwrite.js
+ * variable
+ * meta.definition.variable.name
+ * support.variable
+ * entity.name.variable
+ * constant.other.placeholder
+ * { "foreground": "#9CDCFE" }
+
+`textmate scopes`
+ * variable.other.readwrite.js
+ * meta.definition.variable.js
+ * meta.var-single-variable.expr.js
+ * meta.var.expr.js
+ * source.js
+
+ semantic token type	enumMember
+foreground	variable.other.enummember.cpp
+variable.other.constant
+variable.other.enummember
+{ "foreground": "#4FC1FF" }
+textmate token	·LM_MANUAL_ROT (14)
+textmate scopes	meta.conditional.case.cpp
+meta.body.switch.cpp
+meta.block.switch.cpp
+meta.block.cpp
+meta.block.cpp
+meta.body.function.definition.cpp
+meta.function.definition.cpp
+source.cpp

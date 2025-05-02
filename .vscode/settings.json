@@ -1,5 +1,16 @@
 {
 	"cSpell.words": [
 		"AITD"
-	]
+	],
+	"editor.tokenColorCustomizations": {
+		"[Default Dark+]": {
+			"comments": {},
+			"keywords": {},
+			"strings": {},
+			"numbers": {},
+			"functions": {},
+			"types": {},
+			"variables": {},
+		}
+	}
 }
