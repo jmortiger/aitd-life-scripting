@@ -77,7 +77,7 @@
 				}
 			],
 			"name": "entity.name.function.life",
-			"match": "\\b(anim_(?>(?>all_)?once|repeat|sample|move)|allow_inventory|set|camera_target|delete|do_move|test_col|hit_object|dec|inc|next_music|music|rnd_freq|sound|message|posrel|found|trackmode|do_(?>max|real|rot|carre)_zv|special|dist|hit|in_hand|found_name|read|throw|life_mode|life|sub|add|set_beta|set_alpha|changeroom|angle|found_flag|shaking|water|object|start_chrono|isfound|manual_rot|fire|put|sample_then|(wait_)?game_over|rep_sample|picture|rand|stop_hit_object|end_sequence|copy_angle|def_zv)\\b"
+			"match": "\\b(anim_(?>(?>all_)?once|repeat|sample|move)|allow_inventory|set|camera_target|delete|do_move|test_col|hit_object|dec|inc|next_music|music|rnd_freq|sound|message|posrel|found|trackmode|do_(?>max|real|rot|carre)_zv|special|dist|hit|in_hand|found_name|read|throw|life_mode|life|sub|add|set_beta|set_alpha|changeroom|angle|found_flag|shaking|water|object|start_chrono|isfound|manual_rot|fire|put|sample_then|(wait_)?game_over|rep_sample|picture|rand|stop_hit_object|end_sequence|copy_angle|def_zv|test_zv_end_anim)\\b"
 		},
 		"types": {},
 		"variables": {
@@ -89,7 +89,7 @@
 				},
 				{
 					"name": "variable.name.life",
-					"match": "\\b(?>(?>room_)?chrono|player|body|hitforce|(hit|col)_by|anim|flags|end_anim|(trigger|hard|actor)_collider|alpha|beta|stage|roomy?|num_track|inhand|action|keyboard_input|contact|light|mark|falling|found_body)\\b"
+					"match": "\\b(?>(?>room_)?chrono|player|body|hitforce|(hit|col)_by|anim|flags|end_anim|(trigger|hard|actor)_collider|alpha|beta|stage|roomy?|num_track|inhand|action|keyboard_input|contact|light|mark|falling|found_body|frame)\\b"
 				},
 				{
 					"name": "variable.other.constant.life",

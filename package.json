@@ -2,9 +2,13 @@
   "name": "aitd-life-scripting",
   "displayName": "AITD Life Scripting",
   "description": "Syntax highlighting for life scripts decompiled from Alone in the Dark.",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "Justin Morris",
   "engines": {
     "vscode": "^1.99.0"
+  },
+  "repository": {
+	"url": "https://github.com/jmortiger/aitd-life-scripting"
   },
   "categories": [
     "Programming Languages"
